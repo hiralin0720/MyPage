@@ -14,11 +14,12 @@
 }
 .header .title {
     display: flex;
-    margin: 2 4 0 4;
+    margin: 2 0 0 20;
 }
 #icon_smily {
     height: 46px;
     width: 46px;
+    margin-left: 6;
 }
 .header .link {
     display: flex;
@@ -27,7 +28,7 @@
 }
 .header a {
     font-size: 20;
-    margin-right: 10;
+    margin-right: 8;
 }
 
 .background {
@@ -46,7 +47,7 @@
     background-color: white;
 }
 .base-center {
-    margin: 1% 1% 1% 1%;
+    margin: 1% 0% 1% 0%;
     width: 60%;
     height: 100vH;
     overflow: auto;
