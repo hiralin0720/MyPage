@@ -20,6 +20,15 @@
     height: 46px;
     width: 46px;
 }
+.header .link {
+    display: flex;
+    align-items: center;
+    margin: 0 20 0 20;
+}
+.header a {
+    font-size: 20;
+    margin-right: 10;
+}
 
 .background {
     margin-top: 50;
@@ -32,6 +41,9 @@
     width: 18%;
     height: 100vH;
     overflow: auto;
+}
+.base-right .twitter-timeline {
+    background-color: white;
 }
 .base-center {
     margin: 1% 1% 1% 1%;
