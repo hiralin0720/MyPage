@@ -7,12 +7,22 @@
 .base-phone {
     display: none;
 }
-.base-right { 
+
+.base-left {
     margin: 1% 1% 1% 1%;
-    width: 18%;
+    width: 20%;
     height: 100vH;
     overflow: auto;
     background-color: white;
+    border: #7f7f7f;
+}
+.base-left .clock{
+    text-align: center;
+    pointer-events: none;
+    background-color: #efefff;
+}
+.base-left .calendar{
+    text-align: center;
     border: #7f7f7f;
 }
 .base-center {
@@ -23,16 +33,15 @@
     background-color: blanchedalmond;
     border: #7f7f7f;
 }
-
-.base-left {
+.base-right { 
     margin: 1% 1% 1% 1%;
-    width: 18%;
+    width: 20%;
     height: 100vH;
     overflow: auto;
     background-color: white;
     border: #7f7f7f;
+    overflow-x: hidden;
 }
-
 /*スマホ対応*/
 @media screen and (max-width: 1280px) {
     .background {
