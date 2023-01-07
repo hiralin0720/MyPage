@@ -8,21 +8,22 @@
     background-color: beige;
     border-bottom: 1px solid #7f7f7f;
 }
+.header .icon_smily {
+    height: 46px;
+    width: 46px;
+    margin: 0 8 0 16;
+}
 .header .title {
     display: flex;
     font-size: 200%;
     font-weight: bold;
-    margin: 2 0 0 30;
+    margin: 2 0 0 0;
 }
-#icon_smily {
-    height: 46px;
-    width: 46px;
-    margin-left: 6;
-}
+
 .header .link {
     display: flex;
     align-items: center;
-    margin: 0 20 0 20;
+    margin: 0 20 0 30;
 }
 .header a {
     text-decoration: none;
