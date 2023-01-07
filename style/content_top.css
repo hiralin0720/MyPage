@@ -4,13 +4,32 @@
     background-image:url(../images/background_check.jpg);
     background-size: auto;
 }
+.base-phone {
+    display: none;
+    margin: auto;
+    width: 80%;
+    background-color: blanchedalmond;
+    border: #7f7f7f;
+    padding: 5% 5% 5% 5%;
+}
+.base-phone .title {
+    text-align: center;
+    font-size: 24;
+    margin: -10 0 5 0;
+}
+.base-phone .link {
+    width: fit-content;
+    margin: -5 auto -5 auto;
+}
+.base-phone .link a {
+    color: #000000;
+    font-size: 16;
+}
 .base-right {
     margin: 1% 1% 1% 1%;
     width: 18%;
     height: 100vH;
     overflow: auto;
-}
-.base-right .twitter-timeline {
     background-color: white;
     border: #7f7f7f;
 }
@@ -22,6 +41,7 @@
     background-color: blanchedalmond;
     border: #7f7f7f;
 }
+
 .base-left {
     margin: 1% 1% 1% 1%;
     width: 18%;
@@ -31,9 +51,23 @@
     border: #7f7f7f;
 }
 
-.content {
-    z-index: 1;
-}
-.tytle {
-    display: block;
+/*スマホ対応*/
+@media screen and (max-width: 1280px) {
+    .background {
+        display: block;
+        padding: 5% 0 5% 0;
+    }
+    .base-phone {
+        display: block;
+    }
+    .base-right {
+        display: none;
+    }
+    .base-center {
+        margin: 5% 5% 1% 5%;
+        width: 90%;
+    }
+    .base-left {
+        display: none;
+    }
 }

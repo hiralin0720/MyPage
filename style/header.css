@@ -10,7 +10,9 @@
 }
 .header .title {
     display: flex;
-    margin: 2 0 0 20;
+    font-size: 200%;
+    font-weight: bold;
+    margin: 2 0 0 30;
 }
 #icon_smily {
     height: 46px;
@@ -25,7 +27,7 @@
 .header a {
     text-decoration: none;
     font-weight: bold;
-    font-size: 18;
+    font-size: 100%;
     margin: 2 16 0 0;
     color: black;
 }
@@ -33,4 +35,21 @@
     transform:scale(1.2,1.2);
     transition:0.1s all;
     color: #3f3fff;
+}
+.header .tab {
+    display: none;
+}
+
+/*スマホ対応*/
+@media screen and (max-width: 1280px) {
+    .header .title {
+        display: flex;
+        font-size: 150%;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+    }
+    .header .link {
+        display: none;
+    }
 }
