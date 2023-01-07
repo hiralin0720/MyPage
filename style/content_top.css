@@ -42,14 +42,14 @@
     .base-phone {
         display: block;
         margin: auto;
-        width: 80%;
+        width: 90%;
         background-color: blanchedalmond;
         border: #7f7f7f;
-        padding: 5% 5% 5% 5%;
+        padding: 5% 0% 5% 0%;
     }
     .base-phone .title {
         text-align: center;
-        font-size: 24;
+        font-size: 180%;
         margin: -10 0 5 0;
     }
     .base-phone .link {
@@ -58,7 +58,7 @@
     }
     .base-phone .link a {
         color: #000000;
-        font-size: 16;
+        font-size: 100%;
         white-space: nowrap 
     }
     .base-right {
