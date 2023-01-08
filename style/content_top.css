@@ -3,6 +3,7 @@
     display: flex;
     background-image:url(../images/background_check.jpg);
     background-size: auto;
+    background-attachment: fixed; /*--背景画像の固定--*/
 }
 .base-phone {
     display: none;
@@ -12,19 +13,48 @@
     margin: 1% 1% 1% 1%;
     width: 20%;
     height: 100vH;
-    overflow: auto;
-    background-color: white;
+    background-color: #eef;
     border: #7f7f7f;
 }
 .base-left .clock{
+    padding: 10 0 10 0;
     text-align: center;
     pointer-events: none;
-    background-color: #efefff;
+    font-weight: bold;
+    height: 75;
 }
 .base-left .calendar{
     text-align: center;
     border: #7f7f7f;
+    height: calc(100% - 75px - 50%);
 }
+
+.base-left .news {
+    margin-top: 2%;
+}
+.base-left .news .title {
+    text-align: center;
+    font-size: 24;
+    font-weight: bold;
+}
+
+.base-left .news .content {
+    background-color: #fff;
+    height: calc(100% - 75px - 50%);
+    overflow: auto;
+}
+.base-left .news .row {
+    margin: 10 10;
+    border-bottom: #7f7f7f 1px solid;
+}
+.base-left .news .row a {
+    text-decoration: none;
+}
+.base-left .news dt {
+    margin-right: 20px;
+}
+
+/* メインコンテンツ */
 .base-center {
     margin: 1% 0% 1% 0%;
     width: 60%;
@@ -37,11 +67,11 @@
     margin: 1% 1% 1% 1%;
     width: 20%;
     height: 100vH;
-    overflow: auto;
     background-color: white;
     border: #7f7f7f;
     overflow-x: hidden;
 }
+
 /*スマホ対応*/
 @media screen and (max-width: 1280px) {
     .background {
