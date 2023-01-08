@@ -89,7 +89,7 @@
     .background {
         display: block;
         padding: 5% 0 5% 0;
-        background-attachment: none;
+        background-attachment: scroll;
         background-size: 150%;
     } 
     .base-phone {
