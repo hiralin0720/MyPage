@@ -27,7 +27,7 @@
 .base-left .calendar{
     text-align: center;
     border: #7f7f7f;
-    height: calc(100% - 75px - 50%);
+    height: calc(100% - 100px - 51%);
 }
 
 .base-left .news {
@@ -41,8 +41,11 @@
 
 .base-left .news .content {
     background-color: #fff;
-    height: calc(100% - 75px - 50%);
+    height: calc(100% - 100px - 51%);
     overflow: auto;
+    width: 90%;
+    margin-left: 5%;
+    border: #7f7f7f 1px solid;
 }
 .base-left .news .row {
     margin: 10 10;
