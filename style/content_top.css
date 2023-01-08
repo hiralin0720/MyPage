@@ -2,8 +2,8 @@
     margin-top: 50;
     display: flex;
     background-image:url(../images/background_check.jpg);
-    background-size: auto;
-    background-attachment: fixed; /*--背景画像の固定--*/
+    background-attachment: fixed;
+    background-size: 75%;
 }
 .base-phone {
     display: none;
@@ -89,6 +89,8 @@
     .background {
         display: block;
         padding: 5% 0 5% 0;
+        background-attachment: none;
+        background-size: 150%;
     } 
     .base-phone {
         display: block;
