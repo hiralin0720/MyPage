@@ -51,6 +51,11 @@
         margin: auto;
         left: -23;
     }
+    .header .title .icon {
+        height: 40px;
+        width: 40px;
+        margin: 0 4 0 20;
+    }
     .header .title .text {
         font-size: 30;
         text-align: center;
