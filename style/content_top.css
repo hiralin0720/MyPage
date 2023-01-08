@@ -113,8 +113,10 @@
         display: none;
     }
     .base-center {
+        left: 0%;
         margin: 5% 5% 1% 5%;
         width: 90%;
+        height: auto;
     }
     .base-left {
         display: none;
