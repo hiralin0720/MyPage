@@ -10,6 +10,7 @@
 }
 
 .base-left {
+    position: fixed;
     margin: 1% 1% 1% 1%;
     width: 20%;
     height: 100vH;
@@ -56,15 +57,23 @@
 
 /* メインコンテンツ */
 .base-center {
+    position: relative;
     margin: 1% 0% 1% 0%;
-    width: 60%;
-    height: 100vH;
-    overflow: auto;
+    left: 22%;
+    width: 56%;
+    height: 100%;
     background-color: blanchedalmond;
     border: #7f7f7f;
 }
+.base-center .content {
+    margin: 1%;
+}
+
+/* Twitterタイムライン */
 .base-right { 
+    position: fixed;
     margin: 1% 1% 1% 1%;
+    right: 0;
     width: 20%;
     height: 100vH;
     background-color: white;
