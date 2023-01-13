@@ -1,20 +1,30 @@
 .footer {
-    width: 100%;
-    height: 100px;
+    margin: 0 auto 0 auto;
     display: flex;
-    justify-content: center; /*左右中央揃え*/
-    align-items: center;     /*上下中央揃え*/
+    width: 56%;
+    height: 100px;
     background-color: #3f3f3f;
     border-top: 1px solid #7f7f7f;
+    border-left: 1px solid #7f7f7f;
+    border-right: 1px solid #7f7f7f;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer .text{
     color: #cfcfcf;
-    font-size: 120%;
+    font-size: 24;
     font-weight: bold;
 }
 
 /*スマホ対応*/
 @media screen and (max-width: 1280px) {
     .footer {
-        height: 50px;
-        font-size: 90%;
+        width: 100%;
+        border-left: none;
+        border-right: none;
+    }
+    .footer .text{
+        font-size: 16;
     }
 }
