@@ -133,8 +133,8 @@
         margin: -5 auto -5 auto;
     }
     .base-link .link a {
-        /* color: #000000; */
-        font-size: 24;
+        color: #000000;
+        font-size: 20;
         white-space: nowrap 
     }
     .base-right {
