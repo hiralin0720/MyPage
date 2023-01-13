@@ -1,15 +1,18 @@
+/* 背景 */
 .background {
     background-image:url(../images/background_check.jpg);
-    background-attachment: fixed;
-    background-size: 75%;
+    background-attachment: fixed; /* 背景画像固定 */
+    background-size: 50%;
 }
 
+/* サイトコンテンツ */
 .content {
     width: 100%;
     display: flex;
     margin-top: 50;
 }
 
+/* リンク集 */
 .base-link {
     display: none;
     margin: auto;
@@ -47,7 +50,7 @@
 }
 
 .base-left .news {
-    margin-top: 2%;
+    margin-top: 1%;
 }
 .base-left .news .title {
     text-align: center;
@@ -60,17 +63,20 @@
     height: calc(100% - 100px - 51%);
     overflow: auto;
     width: 90%;
-    margin-left: 5%;
+    margin: 0% 5% ;
     border: #7f7f7f 1px solid;
 }
-.base-left .news .row {
-    margin: 10 10;
+.base-left .news .content dl {
+    width: 100%;
+}
+.base-left .news .content .row {
+    margin: 10;
     border-bottom: #7f7f7f 1px solid;
 }
-.base-left .news .row a {
+.base-left .news .content .row a {
     text-decoration: none;
 }
-.base-left .news dt {
+.base-left .news .content dt {
     margin-right: 20px;
 }
 
@@ -97,9 +103,10 @@
     height: 100vH;
     background-color: white;
     border: #7f7f7f;
+    overflow-y: auto;
 }
 
-/*スマホ対応*/
+/* レスポンシブ */
 @media screen and (max-width: 1280px) {
     .background {
         display: block;

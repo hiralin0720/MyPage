@@ -1,8 +1,8 @@
+/* ヘッダー */
 .header {
     position: fixed;
-    z-index: 1;
+    z-index: 1; /* サイトコンテンツより上に表示 */
     top: 0;
-    left: 0;
     width: 100%;
     height: 50px;
     display: flex;
@@ -10,17 +10,18 @@
     border-bottom: 1px solid #7f7f7f;
 }
 .header .icon {
-    height: 46px;
-    width: 46px;
+    height: 42px;
+    width: 42px;
     margin: 0 8 0 16;
+    border-radius: 21px; /* アイコンを円に淵取り */
+    border: #000 solid 1px;; /*アイコンに枠線 */
 }
 .header .title {
     display: flex;
-    font-size: 200%;
+    font-size: 32px;
     font-weight: bold;
-    margin: 2 0 0 0;
+    margin: 3 0 0 6;
 }
-
 .header .link {
     display: flex;
     align-items: center;
@@ -34,14 +35,11 @@
 }
 .header a:hover {
     transform:scale(1.2,1.2);
-    transition:0.1s all;
+    transition:0.2s all;
     text-decoration: none;
 }
-.header .tab {
-    display: none;
-}
 
-/*スマホ対応*/
+/* レスポンシブ */
 @media screen and (max-width: 1280px) {
     .header .title {
         display: flex;

@@ -1,5 +1,5 @@
+/* フッター */
 .footer {
-    margin: 0 auto 0 auto;
     display: flex;
     width: 56%;
     height: 100px;
@@ -9,6 +9,7 @@
     border-right: 1px solid #7f7f7f;
     justify-content: center;
     align-items: center;
+    margin: 0 auto 0 auto;
 }
 
 .footer .text{
@@ -17,7 +18,7 @@
     font-weight: bold;
 }
 
-/*スマホ対応*/
+/* レスポンシブ */
 @media screen and (max-width: 1280px) {
     .footer {
         width: 100%;
