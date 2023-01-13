@@ -1,12 +1,27 @@
 .background {
-    margin-top: 50;
-    display: flex;
     background-image:url(../images/background_check.jpg);
     background-attachment: fixed;
     background-size: 75%;
 }
-.base-phone {
+
+.content {
+    width: 100%;
+    display: flex;
+    margin-top: 50;
+}
+
+.base-link {
     display: none;
+    margin: auto;
+    width: 90%;
+    background-color: blanchedalmond;
+    border: #7f7f7f;
+}
+.base-link .title {
+    padding-top: 5;
+}
+.base-link .link {
+    padding: 5;
 }
 
 .base-left {
@@ -68,9 +83,6 @@
     background-color: blanchedalmond;
     border: #7f7f7f;
 }
-.base-center .content {
-    margin: 1%;
-}
 
 /* Twitterタイムライン */
 .base-right { 
@@ -81,35 +93,34 @@
     height: 100vH;
     background-color: white;
     border: #7f7f7f;
-    overflow-x: hidden;
 }
 
 /*スマホ対応*/
 @media screen and (max-width: 1280px) {
     .background {
         display: block;
-        padding: 25 0 25 0;
-        background-attachment: scroll;
-        background-size: 150%;
+        background-size: cover; /*--背景画像のサイズ--*/
+        background-attachment: fixed; /*--背景画像の固定--*/
+        background-repeat: no-repeat; /*--背景画像の繰り返し--*/
+        background-position: center center; /*--背景画像の位置--*/
     } 
-    .base-phone {
+    .content {
         display: block;
-        margin: auto;
-        width: 90%;
-        background-color: blanchedalmond;
-        border: #7f7f7f;
-        padding: 20 0 20 0;
+        padding-top: 25;
     }
-    .base-phone .title {
+    .base-link {
+        display: block;
+        width: 90%;
+    }
+    .base-link .title {
         text-align: center;
         font-size: 180%;
-        margin: -10 0 5 0;
     }
-    .base-phone .link {
+    .base-link .link {
         width: fit-content;
         margin: -5 auto -5 auto;
     }
-    .base-phone .link a {
+    .base-link .link a {
         color: #000000;
         font-size: 100%;
         white-space: nowrap 
@@ -118,8 +129,8 @@
         display: none;
     }
     .base-center {
-        left: 0%;
-        margin: 25 5% 0 5%;
+        margin-top: 27;
+        left: 5%;
         width: 90%;
         height: auto;
     }
