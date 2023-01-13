@@ -49,11 +49,11 @@
         justify-content: center;
         align-items: center;
         margin: auto;
-        left: -12;
+        left: -14;
     }
     .header .title .icon {
-        height: 40px;
-        width: 40px;
+        height: 36px;
+        width: 36px;
         margin: 0 4 0 20;
     }
     .header .title .text {
