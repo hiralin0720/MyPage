@@ -18,10 +18,11 @@
     border: #7f7f7f;
 }
 .base-link .title {
-    padding-top: 5;
+    padding-top: 10;
+    font-weight: bold;
 }
 .base-link .link {
-    padding: 5;
+    padding: 10 10 15 10;
 }
 
 .base-left {
