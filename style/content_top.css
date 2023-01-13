@@ -83,6 +83,9 @@
     background-color: blanchedalmond;
     border: #7f7f7f;
 }
+.base-center .introduce {
+    padding: 50;
+}
 
 /* Twitterタイムライン */
 .base-right { 
@@ -129,7 +132,7 @@
         display: none;
     }
     .base-center {
-        margin-top: 27;
+        margin: 30 0 25 0;
         left: 5%;
         width: 90%;
         height: auto;
